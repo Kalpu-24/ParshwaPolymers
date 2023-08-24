@@ -107,3 +107,6 @@ client/parshwapolymers/.env.production.local
 client/parshwapolymers/npm-debug.log*
 client/parshwapolymers/yarn-debug.log*
 client/parshwapolymers/yarn-error.log*
+
+
+.vs/
