@@ -1,0 +1,27 @@
+body{
+  background: var(--background-theme-color);
+}
+
+.c-scrollbar{
+  display: none;
+}
+
+.App {
+  width: 100%;
+  background-color: var(--background-theme-color);
+}
+
+.LogoVideo{
+  width: 50svw;
+  height: 50svh;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition-duration: 0.5s;
+}
+
+.pages{
+  display: none;
+}

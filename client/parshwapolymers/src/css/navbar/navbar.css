@@ -1,0 +1,120 @@
+
+.Headrer{
+    width: 100%;
+    height:55svh;
+    position: absolute;
+    z-index: 3000000;
+}
+
+.navigation {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    color: black;
+}
+
+.nav-menu {
+  display: none;
+} 
+
+.nav-menu ul {
+  width: 100%; 
+  display: flex;
+  top: 70px;
+  text-align: center;
+  position: absolute;
+  flex-direction: column;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+.expanded{
+  display: block;
+  background-color: var(--background-theme-color);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 100svh;
+}
+
+.nav-menu li {
+  list-style-type: none;
+  color: var(--accent-color);
+  font-size: 1.6rem;
+  font-family: bricolage;
+  font-weight: 600;
+  background: var(--background-theme-color);
+  background: linear-gradient(to left, var(--background-theme-color) 50%, var(--accent-color) 50%) right;
+  background-size: 200%;
+  transition: .3s ease-out;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 20px 0px;
+  box-shadow: 0px 0px 0px 1px var(--accent-color);
+}
+
+.nav-menu li:hover {
+  background-position: left;
+  box-shadow: 0px 0px 0px 1px var(--background-theme-color);
+}
+
+a:link {
+  color: var(--accent-color);
+}
+
+a:active {
+  color: var(--accent-color);
+}
+
+a:visited {
+  color: var(--accent-color);
+}
+
+a:hover {
+  color: var(--background-theme-color);
+}
+
+.hamburger {
+  border: none;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  display: block;
+  z-index: 31;
+}
+
+.hamburger:hover {
+  background-color: transparent;
+} 
+
+.hamburger::selection {
+  background-color: transparent;
+}
+
+.hero-title {
+    margin: 0;
+    color: var(--background-theme-color);
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: emberly;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

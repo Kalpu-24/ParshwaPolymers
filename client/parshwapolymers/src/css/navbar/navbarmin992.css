@@ -1,0 +1,60 @@
+@media screen and (min-width: 992px) {
+    
+    .hamburger {
+        display: none;
+      }
+    
+      .nav-menu{
+        display: flex;
+        width: 100svw;
+        height: 70px;
+        background-color: transparent;
+      }
+      .nav-menu ul {
+        position: absolute;
+        width: 30svw;
+        right: 20px;
+        top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .nav-menu li {
+        color: #fff;
+        font-size: 1.2rem;
+        background: transparent;
+        background-size: 100%;
+      }
+      
+      .nav-menu li a {
+        padding: 0px;
+        box-shadow: none;
+      }
+      
+      .nav-menu li:hover {
+        background-position: left;
+        box-shadow: none;
+      }
+    
+      a:link {
+        color: var(--background-theme-color);
+      }
+      
+      a:active {
+        color: var(--background-theme-color);
+      }
+      
+      a:visited {
+        color: var(--background-theme-color);
+      }
+      
+      a:hover {
+        color: var(--background-theme-color);
+      }
+
+      .hero-title {
+        font-size: 8rem;
+    }
+    
+}

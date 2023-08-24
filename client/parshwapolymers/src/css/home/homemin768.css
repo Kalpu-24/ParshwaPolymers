@@ -1,0 +1,10 @@
+@media screen and (min-width: 768px) {
+  
+  .hero-subtitle {
+      margin-top: 1px;
+      font-size: 1.2rem;
+  }
+  .text{
+    color: var(--background-theme-color);
+  }
+}
