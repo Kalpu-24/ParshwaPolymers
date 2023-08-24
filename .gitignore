@@ -1,0 +1,109 @@
+
+###BACKEND###
+backend/parshwapolymers/HELP.md
+backend/parshwapolymers/target/
+backend/parshwapolymers/!.mvn/wrapper/maven-wrapper.jar
+backend/parshwapolymers/!**/src/main/**/target/
+backend/parshwapolymers/!**/src/test/**/target/
+
+### STS ###
+backend/parshwapolymers/.apt_generated
+backend/parshwapolymers/.classpath
+backend/parshwapolymers/.factorypath
+backend/parshwapolymers/.project
+backend/parshwapolymers/.settings
+backend/parshwapolymers/.springBeans
+backend/parshwapolymers/.sts4-cache
+
+### IntelliJ IDEA ###
+backend/parshwapolymers/.idea
+backend/parshwapolymers/*.iws
+backend/parshwapolymers/*.iml
+backend/parshwapolymers/*.ipr
+
+### NetBeans ###
+backend/parshwapolymers/nbproject/private/
+backend/parshwapolymers/nbbuild/
+backend/parshwapolymers/dist/
+backend/parshwapolymers/nbdist/
+backend/parshwapolymers/.nb-gradle/
+backend/parshwapolymers/build/
+backend/parshwapolymers/!**/src/main/**/build/
+backend/parshwapolymers/!**/src/test/**/build/
+
+### VS Code ###
+backend/parshwapolymers/.vscode/
+backend/parshwapolymers/src/main/resources/.env
+
+###Admin###
+
+# Miscellaneous
+admin/parshwapolymers/*.class
+admin/parshwapolymers/*.log
+admin/parshwapolymers/*.pyc
+admin/parshwapolymers/*.swp
+admin/parshwapolymers/.DS_Store
+admin/parshwapolymers/.atom/
+admin/parshwapolymers/.buildlog/
+admin/parshwapolymers/.history
+admin/parshwapolymers/.svn/
+admin/parshwapolymers/migrate_working_dir/
+
+# IntelliJ related
+admin/parshwapolymers/*.iml
+admin/parshwapolymers/*.ipr
+admin/parshwapolymers/*.iws
+admin/parshwapolymers/.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+admin/parshwapolymers/**/doc/api/
+admin/parshwapolymers/**/ios/Flutter/.last_build_id
+admin/parshwapolymers/.dart_tool/
+admin/parshwapolymers/.flutter-plugins
+admin/parshwapolymers/.flutter-plugins-dependencies
+admin/parshwapolymers/.packages
+admin/parshwapolymers/.pub-cache/
+admin/parshwapolymers/.pub/
+admin/parshwapolymers/build/
+
+# Symbolication related
+admin/parshwapolymers/app.*.symbols
+
+# Obfuscation related
+admin/parshwapolymers/app.*.map.json
+
+# Android Studio will place build artifacts here
+admin/parshwapolymers/android/app/debug
+admin/parshwapolymers/android/app/profile
+admin/parshwapolymers/android/app/release
+
+
+####Client####
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+client/parshwapolymers/node_modules
+client/parshwapolymers/.pnp
+client/parshwapolymers/.pnp.js
+
+# testing
+client/parshwapolymers/coverage
+
+# production
+client/parshwapolymers/build
+
+# misc
+client/parshwapolymers/.DS_Store
+client/parshwapolymers/.env.local
+client/parshwapolymers/.env.development.local
+client/parshwapolymers/.env.test.local
+client/parshwapolymers/.env.production.local
+
+client/parshwapolymers/npm-debug.log*
+client/parshwapolymers/yarn-debug.log*
+client/parshwapolymers/yarn-error.log*
